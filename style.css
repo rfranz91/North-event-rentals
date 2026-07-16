@@ -190,3 +190,13 @@ nav a {
 .hero .actions{
     margin-top:28px;
 }
+.hero .btn.secondary {
+  color: #ffffff;
+  border-color: #ffffff;
+  background: rgba(255,255,255,.08);
+}
+
+.hero .btn.secondary:hover {
+  background: #ffffff;
+  color: #314437;
+}
