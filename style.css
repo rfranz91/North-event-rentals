@@ -210,3 +210,18 @@ nav a {
   background: #7f5a32;
   border-color: #7f5a32;
 }
+.rental-photo {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px 10px 0 0;
+}
+
+.card {
+  padding: 0;
+}
+
+.card-body {
+  padding: 22px 24px 26px;
+}
