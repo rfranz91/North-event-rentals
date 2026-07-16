@@ -168,14 +168,14 @@ nav a {
 }
 /* Hero improvements */
 .hero-content{
-    max-width:760px;
+    max-width:900px;
     padding:35px 0;
 }
 
 .hero h1{
-    max-width:620px;
-    font-size:clamp(3.1rem,5vw,5.3rem);
-    line-height:.92;
+    max-width:900px;
+    font-size:clamp(3rem,4.2vw,4.6rem);
+    line-height:.95;
     margin-bottom:18px;
 }
 
