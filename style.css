@@ -225,3 +225,24 @@ nav a {
 .card-body {
   padding: 22px 24px 26px;
 }
+.card h3 a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.card h3 a:hover {
+    color: var(--bronze);
+}
+
+.rental-link {
+    display: inline-block;
+    margin-top: 14px;
+    color: var(--bronze);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.rental-link:hover {
+    text-decoration: underline;
+}
