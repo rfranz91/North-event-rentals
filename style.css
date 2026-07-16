@@ -200,3 +200,13 @@ nav a {
   background: #ffffff;
   color: #314437;
 }
+.hero .btn {
+  background: #9a7040;
+  border-color: #9a7040;
+  color: #ffffff;
+}
+
+.hero .btn:hover {
+  background: #7f5a32;
+  border-color: #7f5a32;
+}
