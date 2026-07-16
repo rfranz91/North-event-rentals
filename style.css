@@ -31,7 +31,7 @@ nav a:hover,nav a.active{color:var(--bronze)}
   color: white;
   background:
     linear-gradient(90deg, rgba(24,31,26,.88), rgba(24,31,26,.42)),
-    url('https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1800&q=85')
+    url('hero.png')
     center / cover;
 }
 
