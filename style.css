@@ -169,7 +169,8 @@ nav a {
 /* Hero improvements */
 .hero-content{
     max-width:900px;
-    padding:35px 0;
+    padding:0;
+  transform:translateY(-35px);
 }
 
 .hero h1{
