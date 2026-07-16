@@ -24,17 +24,52 @@ nav a:hover,nav a.active{color:var(--bronze)}
 .btn{display:inline-block;background:var(--forest);color:white;text-decoration:none;padding:13px 20px;border-radius:5px;font-weight:700;border:2px solid var(--forest)}
 .btn:hover{background:#24342a}
 .btn.secondary{background:transparent;color:var(--forest)}
-.hero{min-height:620px;display:grid;align-items:center;color:white;background:
-linear-gradient(90deg,rgba(24,31,26,.88),rgba(24,31,26,.42)),
-url('https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1800&q=85') center/cover}
-.hero-content{max-width:720px;padding:85px 0}
-.eyebrow{text-transform:uppercase;letter-spacing:.18em;color:#dbc49c;font-size:.82rem;font-weight:800}
-h1,h2,h3{font-family:Georgia,serif;line-height:1.15}
-h1{font-size:clamp(2.7rem,7vw,5.2rem);margin:.2em 0}
-h2{font-size:clamp(2rem,4vw,3.2rem);margin:0 0 18px}
-h3{font-size:1.4rem}
-.hero p{font-size:1.16rem;max-width:630px}
-.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.hero {
+  min-height: 620px;
+  display: grid;
+  align-items: center;
+  color: white;
+  background:
+    linear-gradient(90deg, rgba(24,31,26,.88), rgba(24,31,26,.42)),
+    url('https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1800&q=85')
+    center / cover;
+}
+
+.hero-content {
+  max-width: 900px;
+  padding: 72px 0 84px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: .18em;
+  color: #dbc49c;
+  font-size: .82rem;
+  font-weight: 800;
+  margin-bottom: 22px;
+}
+
+.hero h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(3.2rem, 6vw, 5.5rem);
+  line-height: 1;
+  margin: 0 0 24px;
+  max-width: 900px;
+}
+
+.hero p {
+  font-size: 1.12rem;
+  line-height: 1.6;
+  max-width: 720px;
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
 .section{padding:82px 0}
 .section.alt{background:var(--paper)}
 .intro{text-align:center;max-width:760px;margin:0 auto 42px}
@@ -130,38 +165,4 @@ nav a {
 .cta-button:hover {
     background-color: #8e6e45;
     color: #ffffff !important;
-}
-/* Polished homepage hero */
-.hero-content {
-  max-width: 900px;
-  padding: 55px 0 65px;
-}
-
-.hero h1 {
-  font-size: clamp(3rem, 5.5vw, 5rem);
-  line-height: 0.98;
-  margin: 0 0 22px;
-  max-width: 900px;
-}
-
-.hero-content > p {
-  max-width: 720px;
-  margin: 0;
-  font-size: 1.08rem;
-  line-height: 1.55;
-}
-
-.hero .actions {
-  margin-top: 26px;
-}
-
-@media (max-width: 850px) {
-  .hero-content {
-    padding: 55px 0;
-  }
-
-  .hero h1 {
-    font-size: clamp(2.7rem, 11vw, 4rem);
-    line-height: 1;
-  }
 }
