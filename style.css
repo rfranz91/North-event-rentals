@@ -117,3 +117,17 @@ nav a {
     background-color: #8e6e45;
     color: white !important;
 }
+.cta-button {
+    background-color: #b08d57;
+    color: #ffffff !important;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #8e6e45;
+    color: #ffffff !important;
+}
