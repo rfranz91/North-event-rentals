@@ -1,8 +1,20 @@
 
-const btn=document.querySelector('.menu-btn');
-const menu=document.querySelector('nav ul');
-if(btn){btn.addEventListener('click',()=>menu.classList.toggle('open'));}
-document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>menu.classList.remove('open')));
+document.addEventListener('DOMContentLoaded', function () {
+    const menuButton = document.querySelector('.menu-btn');
+    const navigationMenu = document.querySelector('header nav ul');
+
+    if (menuButton && navigationMenu) {
+        menuButton.addEventListener('click', function () {
+            navigationMenu.classList.toggle('open');
+        });
+
+        navigationMenu.querySelectorAll('a').forEach(function (link) {
+            link.addEventListener('click', function () {
+                navigationMenu.classList.remove('open');
+            });
+        });
+    }
+});
 const form=document.querySelector('#quote-form');
 if(form){
  form.addEventListener('submit',e=>{
